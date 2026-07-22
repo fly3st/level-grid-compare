@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RevitAddIns>
+  <AddIn Type="Command">
+    <Name>Level &amp; Grid Compare</Name>
+    <Description>Compares levels and grids between the host model and the first linked model.</Description>
+    <Text>Level &amp; Grid Compare</Text>
+
+    <!-- IMPORTANT: update this path to wherever your compiled DLL lives -->
+    <Assembly>C:\RevitDev\LevelGridCompare\bin\Debug\LevelGridCompare.dll</Assembly>
+
+    <FullClassName>LevelGridCompare.CompareCommand</FullClassName>
+
+    <!-- Any unique GUID works. Generate a new one if you build more add-ins. -->
+    <AddInId>7A1F4C2E-9B3D-4E8A-A6D1-52C40D6E9F13</AddInId>
+
+    <VendorId>DANH</VendorId>
+    <VendorDescription>Daniel Huri — danh.bio</VendorDescription>
+  </AddIn>
+</RevitAddIns>
