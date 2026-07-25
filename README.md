@@ -8,7 +8,7 @@ This is V1 of a larger arch-vs-structure comparison tool.
 
 ---
 
-## 1. Prerequisites (all free)
+## 1. Prerequisites
 
 - **Visual Studio 2022 Community** — during install, check the workload
   **".NET desktop development"**.
@@ -41,7 +41,7 @@ This is V1 of a larger arch-vs-structure comparison tool.
 4. The command appears under **Add-Ins tab → External Tools →
    Level & Grid Compare**.
 
-## 4. Build a test scene (10 minutes)
+## 4. Build a test scene
 
 You need two models with deliberate mismatches:
 
@@ -56,9 +56,6 @@ You need two models with deliberate mismatches:
    (positioning: Auto – Origin to Origin).
 4. Run the command. The dialog should catch every mismatch you planted,
    and `LevelGridCompare.csv` appears on your Desktop.
-
-That moment — the tool catching the mistakes you planted — screenshot it.
-That's portfolio material.
 
 ## 5. Other Revit versions
 
